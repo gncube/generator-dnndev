@@ -1,0 +1,40 @@
+{
+  "name": "generator-dnndev",
+  "version": "1.0.0",
+  "description": "DNN yeoman generator for DNN Module Development",
+  "main": "generators/index.js",
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gncube/generator-dnndev.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "dnn",
+    "mvc",
+    "webforms",
+    "SPA"
+  ],
+  "author": "GSN <me@geraldncube.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gncube/generator-dnndev/issues"
+  },
+  "homepage": "https://github.com/gncube/generator-dnndev#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotnet-solution": "^0.2.0",
+    "glob": "^7.1.6",
+    "pascal-case": "^3.1.1",
+    "update-notifier": "^4.1.0",
+    "uuid-v4": "^0.1.0",
+    "which": "^2.0.2",
+    "yeoman-generator": "^4.7.2",
+    "yosay": "^2.0.2"
+  }
+}
